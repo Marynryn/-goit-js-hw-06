@@ -26,7 +26,7 @@ btnCreate.addEventListener("click", createBoxes);
   }
   box.append(...arr);
  }
- btnDestroy.addEventListener("input", deleteBoxes);
+ btnDestroy.addEventListener("click", deleteBoxes);
 
 function deleteBoxes () {
  box.innerHTML = "";
